@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  box-sizing: border-box;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -18,12 +22,10 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: radial-gradient(ellipse at 75% 15%, rgb(13, 40, 44) 0%, rgb(15, 14, 19) 75%);
+    /* background: radial-gradient(ellipse at 75% 15%, rgb(41, 25, 46) 0%, rgb(15, 14, 19) 75%);
+ */
+  /* background: rgb(15, 14, 19); */
 }
 
 @layer utilities {
