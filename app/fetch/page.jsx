@@ -42,12 +42,14 @@ export default function FetchPage() {
             const url = URL.createObjectURL(content)
             setZipDownloadUrl(url);
         });
-
-        let gap = 1;
-        if (dayCount > 20) {
-            gap = Math.floor(dayCount / 20);
-        }
+        
+        sessionStorage.setItem("startDate", startDate)
+        sessionStorage.setItem("endDate", endDate)
     }
+
+    React.useEffect(() => {
+        sessionStorage.setItem("fileList", JSON.stringify(fileList))
+    }, [fileList])
 
     return (
         <PageWrapper currType={"fetch"}>
@@ -163,7 +165,8 @@ export default function FetchPage() {
                     fileList.length > 0 && 
                     <div className="flex gap-4">
                         <a className="text-white bg-violet-700 font-semibold rounded-lg px-8 h-full py-0.5 shadow-md shadow-purple-500/25 flex items-center" href={zipDownloadUrl} download={"summary-download.zip"}>Download Zip</a>
-                        <div className="text-slate-600 bg-white bg-gradient-to-tr from-cyan-200 to-pink-200 font-semibold rounded-lg px-8 h-full py-0.5 shadow-md shadow-purple-500/25 flex items-center">Analyze with AI</div>
+                        <Link className="text-slate-600 bg-white bg-gradient-to-tr from-cyan-200 to-pink-200 font-semibold rounded-lg px-8 h-full py-0.5 shadow-md shadow-purple-500/25 flex items-center" href="/ai">
+                        Analyze with AI</Link>
                     </div>
                 }
             </div>

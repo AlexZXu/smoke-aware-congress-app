@@ -88,7 +88,7 @@ def getJsonData():
     directory_pdf = "C:\\Users\\alex0\\OneDrive\\Desktop\\firefly-congress-app\\app\\lib\\sample_data_json"
     
     # Loop through each day from Jan 2, 2010 to Sep 1, 2024
-    for single_date in daterange(date(2010, 1, 2), date(2024, 9, 1)):
+    for single_date in daterange(date(2024, 9, 1), date(2024, 10, 22)):
         # Get the day, month, and year
         day = single_date.day
         month = single_date.month
