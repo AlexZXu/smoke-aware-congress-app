@@ -22,7 +22,10 @@ html {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: radial-gradient(ellipse at 75% 15%, rgb(13, 40, 44) 0%, rgb(15, 14, 19) 75%);
+  background-image: radial-gradient(ellipse at 75% 15%, rgb(13, 40, 44) 0%, rgb(15, 14, 19) 75%);
+  background-attachment: fixed;
+
+  min-width: 1250px;
     /* background: radial-gradient(ellipse at 75% 15%, rgb(41, 25, 46) 0%, rgb(15, 14, 19) 75%);
  */
   /* background: rgb(15, 14, 19); */
