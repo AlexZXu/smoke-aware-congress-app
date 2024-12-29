@@ -39,7 +39,7 @@ Millions of people are affected annually by harmful smoke inhalation, often with
 ## Technology Stack
 
 - **Frontend:** Developed using Next.js with React and Tailwind CSS for a responsive and intuitive user interface. 
-- **Backend:** Aggregated data is stored in a No-SQL Google Firestore Database. The app integrates APIs from Google Maps to fetch geospatial data and provide real-time visualization. It also utilizes OpenAI for AI-powered features, particularly in developing the retrieval-augmented generation (RAG) system.
+- **Backend:** Aggregated data is fetched using Python and BeautifulSoup and stored in a No-SQL Google Firestore Database. The app integrates APIs from Google Maps to fetch geospatial data and provide real-time visualization. It also utilizes OpenAI for AI-powered features, particularly in developing the retrieval-augmented generation (RAG) system.
 - **Data Sources:** Utilized custom programs to aggregate real-time AQI and wildfire smoke data from government websites and reputable third-party APIs. 
 
 ## How to Use
