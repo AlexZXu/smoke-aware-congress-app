@@ -1,5 +1,7 @@
 # Smoke Aware: A Real-Time Wildfire & Smoke Data App
 
+**Congressional App Challenge GA-07 2nd Place Winner**
+
 
 **Created by**: Alexander Xu
 
