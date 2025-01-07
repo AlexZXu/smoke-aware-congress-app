@@ -32,6 +32,7 @@ Millions of people are affected annually by harmful smoke inhalation, often with
 4. **AI Analysis and Insights**
     - Includes a custom AI model built on retrieval-augmented generation (RAG) for answering wildfire and climate-related queries, improving efficiency for researchers and raising public awareness.
     - Because the model is able to access specific dataset files, the AI bot allows users to ask both general questions and detailed questions about specific smoke data.
+      
 ![app-ai-features](https://github.com/user-attachments/assets/ace158d7-6682-49cf-b7ad-cb6714827dc7)
 
 ## Technology Stack
@@ -50,4 +51,5 @@ Millions of people are affected annually by harmful smoke inhalation, often with
 
 ---
 Smoke Aware is a step forward in combining technology with environmental advocacy. This app is one step in helping track, adapt, and mitigate the effects of wildfire smoke on our health and planet.
+
 Contact: For questions, feedback, or collaboration opportunities, email Alexander Xu at xualex008@gmail.com.
