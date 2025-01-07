@@ -488,8 +488,8 @@ export default function Summary() {
             {
               (Array.isArray(data.response) && data.response.length == 0) &&
               <tr>
-                <td className="p-4 pl-6 font-bold text-purple-200">
-                  No stations!
+                <td colSpan={10} className="p-4 pl-6 font-bold text-purple-200">
+                  No stations detecting severe wildfire smoke for this day! Please check other dates.
                 </td>
               </tr>
             }
