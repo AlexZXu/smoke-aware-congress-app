@@ -3,11 +3,13 @@
 
 
 **Created by**: Alexander Xu
+
 **Contact**: xualex008@gmail.com!
 
 ## Overview
 Smoke Aware is a web application designed to make data on pollution and wildfire smoke more accessible and understandable to a wider audience. The app leverages artificial intelligence and web-scraping to aggregate real-time data on wildfires and pollution, which are increasingly linked to climate change. 
 Millions of people are affected annually by harmful smoke inhalation, often without sufficient resources to mitigate the risks. Smoke Aware aims to help raise public awareness about these issues to help keep people safe and track important climate trends.
+
 ## Features
 1. **Regional Air Quality Reports**
     - Utilizing Google Maps's Air Quality API, the app enables users to access real-time data on the air quality and concentration of various pollutants (Carbon monoxide, Nitrogen dioxide, Ozone, etc).
