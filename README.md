@@ -18,7 +18,6 @@ Millions of people are affected annually by harmful smoke inhalation, often with
 ![regional_screenshot](https://github.com/user-attachments/assets/fee13294-4c8a-4707-918a-5f139d8efe1b)
 
 2. **Wildfire Smoke Visualization**
-   
     - The app aggregates data from publicly available sources on ongoing wildfires and smoke spread. Users are able to view a daily summary of the data from major smoke monitors or analyze data from a specific monitor, exploring trends with toggles, tooltips, and interactive graphs.
       
 ![app-daily-summary](https://github.com/user-attachments/assets/ee426929-a0df-4502-962a-9c10a2eb71df)
