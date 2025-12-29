@@ -7,6 +7,8 @@ export async function GET(req, {params}) {
 
     const response = await retrieveRun(streamId, runId);
     
+    console.log(response)
+
     let currMessage = response.content[0].text.value
 
     let index = currMessage.indexOf('【');
