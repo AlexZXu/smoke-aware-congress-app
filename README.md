@@ -1,10 +1,10 @@
 # Smoke Aware: A Real-Time Wildfire & Smoke Data App
-**Congressional App Challenge GA-07 2nd Place Winner**
 
+## Associated Research Abstract ("Developing Data-driven Wildfire Smoke Detection Using Wavelet-decomposed Surface Observations and Machine Learning"): https://agu.confex.com/agu/agu25/meetingapp.cgi/Paper/1951581
 
 **Created by**: Alexander Xu
 
-**Contact**: xualex008@gmail.com!
+**Contact**: xualex008@gmail.com
 
 ## Overview
 Smoke Aware is a web application designed to make data on pollution and wildfire smoke more accessible and understandable to a wider audience. The app leverages artificial intelligence and web-scraping to aggregate real-time data on wildfires and pollution, which are increasingly linked to climate change. 
